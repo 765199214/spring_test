@@ -5,13 +5,6 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--    1、单例Bean-->
-    <bean id="userBean" class="cn.linkpower.test.User"></bean>
-    <bean id="userBean1" class="cn.linkpower.test.User"></bean>
 
-    <!--  2、多例  -->
-    <bean id="userBean2" class="cn.linkpower.test.User" scope="prototype"></bean>
-
-    <!--  3、加载类  -->
-    <bean id="user" class="cn.linkpower.application.User" />
+    <bean id="user" class="cn.linkpower.refresh.User" />
 </beans>

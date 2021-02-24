@@ -11,4 +11,7 @@
 
     <!--  2、多例  -->
     <bean id="userBean2" class="cn.linkpower.test.User" scope="prototype"></bean>
+
+    <!--  3、加载类  -->
+    <bean id="user" class="cn.linkpower.application.User" />
 </beans>
