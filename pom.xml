@@ -17,6 +17,7 @@
     <modules>
         <module>bean_test</module>
         <module>spring_bean_test</module>
+        <module>spring_container</module>
     </modules>
 
 
